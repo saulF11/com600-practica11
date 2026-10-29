@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:463413c8-6f08-4731-877d-6e3f58a54317",
+  "serialNumber": "urn:uuid:4216ede8-319c-4d13-95d1-39755e21c170",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-10-29T18:59:28.329Z",
+    "timestamp": "2026-10-29T19:15:12.832Z",
     "lifecycles": [
       {
         "phase": "build"
@@ -7493,57 +7493,6 @@
         {
           "license": {
             "id": "ISC"
-          }
-        }
-      ]
-    },
-    {
-      "bom-ref": "lodash@4.18.1",
-      "type": "library",
-      "name": "lodash",
-      "version": "4.18.1",
-      "scope": "optional",
-      "author": "John-David Dalton",
-      "description": "Lodash modular utilities.",
-      "purl": "pkg:npm/lodash@4.18.1",
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/archiver-utils/node_modules/lodash"
-        },
-        {
-          "name": "cdx:npm:package:development",
-          "value": "true"
-        }
-      ],
-      "externalReferences": [
-        {
-          "type": "distribution",
-          "url": "https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz"
-        },
-        {
-          "type": "vcs",
-          "url": "git+https://github.com/lodash/lodash.git"
-        },
-        {
-          "type": "website",
-          "url": "https://lodash.com/"
-        },
-        {
-          "type": "issue-tracker",
-          "url": "https://github.com/lodash/lodash/issues"
-        }
-      ],
-      "hashes": [
-        {
-          "alg": "SHA-512",
-          "content": "74c22789c4cf544f1dd5ee68b5fc269a3971919a14a6254bc32793754b22fc26a3fe07f3cdb941702139b111d5fc0b23b829b15abb5ed93346498b82782abed1"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
           }
         }
       ]
@@ -19476,14 +19425,14 @@
       ]
     },
     {
-      "bom-ref": "jsonwebtoken@8.5.1",
+      "bom-ref": "jsonwebtoken@9.0.3",
       "type": "library",
       "name": "jsonwebtoken",
-      "version": "8.5.1",
+      "version": "9.0.3",
       "scope": "required",
       "author": "auth0",
       "description": "JSON Web Token implementation (symmetric and asymmetric)",
-      "purl": "pkg:npm/jsonwebtoken@8.5.1",
+      "purl": "pkg:npm/jsonwebtoken@9.0.3",
       "properties": [
         {
           "name": "cdx:npm:package:path",
@@ -19493,7 +19442,7 @@
       "externalReferences": [
         {
           "type": "distribution",
-          "url": "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-8.5.1.tgz"
+          "url": "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.3.tgz"
         },
         {
           "type": "vcs",
@@ -19511,7 +19460,7 @@
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "5e3c157d14ba8d332ca98b3412cb89e0b1b15d5d78cd0c9b35de0bdabd14bdb567485f407fcc7ba793336c9f74228cfff53238d7f8530afce717f968892ce7f3"
+          "content": "313ff13f40abb9b15134b34abf12760587f2e776649befb96d7f5db6e3dba80790a5355ed0c4131616a8f3e0a9fff126269db8e31b7a0ebc3f1951060948f8d2"
         }
       ],
       "licenses": [
@@ -19569,14 +19518,14 @@
       ]
     },
     {
-      "bom-ref": "semver@5.7.2",
+      "bom-ref": "semver@7.8.5",
       "type": "library",
       "name": "semver",
-      "version": "5.7.2",
+      "version": "7.8.5",
       "scope": "required",
       "author": "GitHub Inc.",
       "description": "The semantic version parser used by npm.",
-      "purl": "pkg:npm/semver@5.7.2",
+      "purl": "pkg:npm/semver@7.8.5",
       "properties": [
         {
           "name": "cdx:npm:package:path",
@@ -19586,7 +19535,7 @@
       "externalReferences": [
         {
           "type": "distribution",
-          "url": "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz"
+          "url": "https://registry.npmjs.org/semver/-/semver-7.8.5.tgz"
         },
         {
           "type": "vcs",
@@ -19604,7 +19553,7 @@
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "701ce79d0f4a8c9a94ebb079d91302eb908c6ab2b6eb4d161676e471a8b05aadf1cbfe61685265b21827a63a2f31527e1df7f8f5df06127d1bf3b0b9a43435d2"
+          "content": "63bfca0ec6fc2e3a28669c1aa86cae94ee8342592c8029dc7211c693eb19218e1206f52870c044147e54af57c8e1d57e26f974c3a723bee71a222e34a6e462a0"
         }
       ],
       "licenses": [
@@ -19616,14 +19565,14 @@
       ]
     },
     {
-      "bom-ref": "jwa@1.4.2",
+      "bom-ref": "jwa@2.0.1",
       "type": "library",
       "name": "jwa",
-      "version": "1.4.2",
+      "version": "2.0.1",
       "scope": "required",
       "author": "Brian J. Brennan",
       "description": "JWA implementation (supports all JWS algorithms)",
-      "purl": "pkg:npm/jwa@1.4.2",
+      "purl": "pkg:npm/jwa@2.0.1",
       "properties": [
         {
           "name": "cdx:npm:package:path",
@@ -19633,7 +19582,7 @@
       "externalReferences": [
         {
           "type": "distribution",
-          "url": "https://registry.npmjs.org/jwa/-/jwa-1.4.2.tgz"
+          "url": "https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz"
         },
         {
           "type": "vcs",
@@ -19651,7 +19600,7 @@
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "79e1f924efb6d49efca8cbd32037415e274177a9c6da46638393a1cffd5fa5adbc67809cb16533275659c85abfdf3dcdd7b699cbe66e0681e58c049b2f559f3b"
+          "content": "851174e1fa8920ff006db92ae4d28637405baf7271950faa859b9f5d5af40efba32b2f776426d764c1c32f810eb687526c25b13aa47c312d6d5c0e61c2a0970e"
         }
       ],
       "licenses": [
@@ -19663,14 +19612,14 @@
       ]
     },
     {
-      "bom-ref": "jws@3.2.3",
+      "bom-ref": "jws@4.0.1",
       "type": "library",
       "name": "jws",
-      "version": "3.2.3",
+      "version": "4.0.1",
       "scope": "required",
       "author": "Brian J Brennan",
       "description": "Implementation of JSON Web Signatures",
-      "purl": "pkg:npm/jws@3.2.3",
+      "purl": "pkg:npm/jws@4.0.1",
       "properties": [
         {
           "name": "cdx:npm:package:path",
@@ -19680,7 +19629,7 @@
       "externalReferences": [
         {
           "type": "distribution",
-          "url": "https://registry.npmjs.org/jws/-/jws-3.2.3.tgz"
+          "url": "https://registry.npmjs.org/jws/-/jws-4.0.1.tgz"
         },
         {
           "type": "vcs",
@@ -19698,7 +19647,7 @@
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "6f2889d052d174b75255245e3bf53813b4681323822a712710f323ab71f15adbf32ec574f3f8b94502ac1553640a576b09a3ebdaf0cd00e32c7ecf13fc7cdeee"
+          "content": "10a23f33fcaa3e7706514878e31cf43f14a275716bffeaf4a40ef4fa0218863bfe7adef2c4cfacdbd63e5460e4a2f4687d07a6d1fb3b52f7f8f9898077245db8"
         }
       ],
       "licenses": [
@@ -20218,14 +20167,14 @@
       ]
     },
     {
-      "bom-ref": "lodash@4.17.11",
+      "bom-ref": "lodash@4.18.1",
       "type": "library",
       "name": "lodash",
-      "version": "4.17.11",
+      "version": "4.18.1",
       "scope": "required",
       "author": "John-David Dalton",
       "description": "Lodash modular utilities.",
-      "purl": "pkg:npm/lodash@4.17.11",
+      "purl": "pkg:npm/lodash@4.18.1",
       "properties": [
         {
           "name": "cdx:npm:package:path",
@@ -20235,7 +20184,7 @@
       "externalReferences": [
         {
           "type": "distribution",
-          "url": "https://registry.npmjs.org/lodash/-/lodash-4.17.11.tgz"
+          "url": "https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz"
         },
         {
           "type": "vcs",
@@ -20253,7 +20202,7 @@
       "hashes": [
         {
           "alg": "SHA-512",
-          "content": "7102a1f22828e5052167b960dfc0d8580c4cbe3480286d00f3019256298fd3b4885042b650ef9aad244a6d1656b5e94cb4de55d07930879af23ada3f4ac85822"
+          "content": "74c22789c4cf544f1dd5ee68b5fc269a3971919a14a6254bc32793754b22fc26a3fe07f3cdb941702139b111d5fc0b23b829b15abb5ed93346498b82782abed1"
         }
       ],
       "licenses": [
@@ -29121,8 +29070,8 @@
       "dependsOn": [
         "dotenv@18.0.9",
         "express@4.22.3",
-        "jsonwebtoken@8.5.1",
-        "lodash@4.17.11",
+        "jsonwebtoken@9.0.3",
+        "lodash@4.18.1",
         "mongodb@6.21.0",
         "@testcontainers/mongodb@10.28.0",
         "eslint@10.12.0",
@@ -30136,10 +30085,6 @@
         "package-json-from-dist@1.0.1",
         "path-scurry@1.11.1"
       ]
-    },
-    {
-      "ref": "lodash@4.18.1",
-      "dependsOn": []
     },
     {
       "ref": "minimatch@9.0.9",
@@ -31757,9 +31702,9 @@
       "dependsOn": []
     },
     {
-      "ref": "jsonwebtoken@8.5.1",
+      "ref": "jsonwebtoken@9.0.3",
       "dependsOn": [
-        "jws@3.2.3",
+        "jws@4.0.1",
         "lodash.includes@4.3.0",
         "lodash.isboolean@3.0.3",
         "lodash.isinteger@4.0.4",
@@ -31768,7 +31713,7 @@
         "lodash.isstring@4.0.1",
         "lodash.once@4.1.1",
         "ms@2.1.3",
-        "semver@5.7.2"
+        "semver@7.8.5"
       ]
     },
     {
@@ -31776,11 +31721,11 @@
       "dependsOn": []
     },
     {
-      "ref": "semver@5.7.2",
+      "ref": "semver@7.8.5",
       "dependsOn": []
     },
     {
-      "ref": "jwa@1.4.2",
+      "ref": "jwa@2.0.1",
       "dependsOn": [
         "buffer-equal-constant-time@1.0.1",
         "ecdsa-sig-formatter@1.0.11",
@@ -31788,9 +31733,9 @@
       ]
     },
     {
-      "ref": "jws@3.2.3",
+      "ref": "jws@4.0.1",
       "dependsOn": [
-        "jwa@1.4.2",
+        "jwa@2.0.1",
         "safe-buffer@5.2.1"
       ]
     },
@@ -31854,7 +31799,7 @@
       ]
     },
     {
-      "ref": "lodash@4.17.11",
+      "ref": "lodash@4.18.1",
       "dependsOn": []
     },
     {
