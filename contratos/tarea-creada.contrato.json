@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TareaCreada",
+  "description": "Evento publicado por el microservicio de tareas cuando se crea una tarea",
+  "type": "object",
+  "required": ["id", "titulo", "creadaEn"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "titulo": { "type": "string", "minLength": 1 },
+    "creadaEn": { "type": "string", "format": "date-time" },
+    "tipo": { "type": "string", "const": "TareaCreada" },
+    "version": { "type": "integer" }
+  },
+  "additionalProperties": true
+}

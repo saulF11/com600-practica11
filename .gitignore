@@ -1,0 +1,7 @@
+.env
+certs/
+node_modules/
+coverage/
+auditoria.json
+vencido.txt
+sbom-imagen.json
